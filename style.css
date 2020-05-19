@@ -1,0 +1,27 @@
+body {
+    background-color: gainsboro;
+}
+.container {
+    display: grid;
+    grid-template-columns: .05fr, 1fr, .05fr;
+}
+.intro {
+    padding-top: 15px;
+    grid-column: 2;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+/* @media screen and (min-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: .5fr, 1fr, 1fr, .5fr;
+    }
+    .intro {
+        grid-column: 2/span 1;
+        font-size: 20px;
+    }
+} */
